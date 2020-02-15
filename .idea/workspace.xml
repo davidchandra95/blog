@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="818eb364-2b94-4ff4-a6e5-556677f7d04d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1XoBJInhfgiboIg4Dw8oEzw2FHc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build github.com/davidchandra95/blog" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/davidchandra95/blog" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/davidchandra95/blog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="688" y="358" width="587" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581702952491">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state x="688" y="358" width="587" height="397" key="#com.intellij.fileTypes.FileTypeChooser/53.27.1867.1053@53.27.1867.1053" timestamp="1581702952491" />
+    <state width="1821" height="275" key="GridCell.Tab.0.bottom" timestamp="1581703791084">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1821" height="275" key="GridCell.Tab.0.bottom/53.27.1867.1053@53.27.1867.1053" timestamp="1581703791084" />
+    <state width="1821" height="275" key="GridCell.Tab.0.center" timestamp="1581703791083">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1821" height="275" key="GridCell.Tab.0.center/53.27.1867.1053@53.27.1867.1053" timestamp="1581703791083" />
+    <state width="1821" height="275" key="GridCell.Tab.0.left" timestamp="1581703791082">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1821" height="275" key="GridCell.Tab.0.left/53.27.1867.1053@53.27.1867.1053" timestamp="1581703791082" />
+    <state width="1821" height="275" key="GridCell.Tab.0.right" timestamp="1581703791084">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1821" height="275" key="GridCell.Tab.0.right/53.27.1867.1053@53.27.1867.1053" timestamp="1581703791084" />
+  </component>
+</project>
