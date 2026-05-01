@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="terminal-line page-header">
+    <span class="prompt">❯</span>
+    <span class="cmd">ls</span>
+    <span class="arg">{{ .Title | default "posts" }}/</span>
+    <span class="count">({{ len .Pages }})</span>
+  </div>
+  {{ range .Pages }}
+    {{ partial "post-card.html" . }}
+  {{ end }}
+{{ end }}

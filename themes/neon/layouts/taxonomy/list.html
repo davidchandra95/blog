@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="terminal-line page-header">
+    <span class="prompt">❯</span>
+    <span class="cmd">grep</span>
+    <span class="arg">-r "{{ .Title }}"</span>
+    <span class="count">({{ len .Pages }})</span>
+  </div>
+  {{ range .Pages }}
+    {{ partial "post-card.html" . }}
+  {{ end }}
+{{ end }}

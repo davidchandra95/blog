@@ -1,0 +1,8 @@
+name = "neon"
+license = "MIT"
+description = "Terminal-neon aesthetic blog theme for Hugo"
+homepage = "https://github.com/davidchandra95/blog"
+min_version = "0.120.0"
+
+[author]
+  name = "David Chandra"

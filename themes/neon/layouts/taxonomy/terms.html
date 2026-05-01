@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <div class="terminal-line page-header">
+    <span class="prompt">❯</span>
+    <span class="cmd">find</span>
+    <span class="arg">/tags</span>
+  </div>
+  <ul class="taxonomy-cloud">
+    {{ range .Pages.ByTitle }}
+    <li>
+      <a href="{{ .RelPermalink }}" class="tag taxonomy-item">
+        #{{ .Title }} <span class="tag-count">({{ len .Pages }})</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+{{ end }}

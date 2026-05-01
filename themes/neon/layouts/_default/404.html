@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <div class="error-page">
+    <pre><span class="prompt">❯</span> <span class="cmd">cat</span> <span class="arg">/404</span>
+<span class="error">error: file not found</span></pre>
+    <p><a href="{{ .Site.Home.RelPermalink }}">← cd ~/</a></p>
+  </div>
+{{ end }}

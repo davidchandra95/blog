@@ -1,0 +1,60 @@
+baseURL: "https://davidchandra95.github.io/blog/"
+languageCode: "en-us"
+title: "~/blog"
+theme: "neon"
+paginate: 5
+summaryLength: 30
+
+enableGitInfo: false
+enableRobotsTXT: true
+
+# Disable RSS
+disableKinds:
+  - RSS
+
+outputs:
+  home:
+    - HTML
+
+taxonomies:
+  tag: tags
+  category: categories
+
+permalinks:
+  posts: /posts/:slug/
+
+# Syntax highlighting
+markup:
+  highlight:
+    style: onedark
+    lineNumbersInTable: false
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Exclude files from output
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: static
+      target: static
+    - source: themes/neon/static
+      target: static
+
+# Sitemap
+sitemap:
+  changeFreq: ""
+  priority: -1
+  filename: sitemap.xml
+
+params:
+  description: "Thoughts on code, systems, and building things."
+  author: "David Chandra"
+  github: "davidchandra95"
+  accent: "#00e5ff"      # cyan neon
+  accentAlt: "#ff2d95"   # pink neon
+  bg: "#0d1117"
+  fg: "#c9d1d9"
+  fontMono: "JetBrains Mono, Fira Code, SF Mono, Monaco, monospace"

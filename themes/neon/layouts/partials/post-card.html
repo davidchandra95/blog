@@ -1,0 +1,32 @@
+<article class="post-card">
+  <div class="post-card-meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}" class="date">
+      {{ .Date.Format "2006-01-02" }}
+    </time>
+    {{ if .Params.categories }}
+    <span class="separator">in</span>
+    <span class="categories">
+      {{ range .Params.categories }}
+      <a href="{{ "categories/" | relURL }}{{ . | urlize }}" class="category-tag">#{{ . }}</a>
+      {{ end }}
+    </span>
+    {{ end }}
+    <span class="separator">·</span>
+    <span class="reading-time">{{ .ReadingTime }} min read</span>
+  </div>
+  <h2 class="post-title">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h2>
+  {{ if .Description }}
+  <p class="post-desc">{{ .Description }}</p>
+  {{ else }}
+  <p class="post-desc">{{ .Summary | plainify | truncate 140 }}</p>
+  {{ end }}
+  {{ if .Params.tags }}
+  <div class="tags">
+    {{ range .Params.tags }}
+    <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="tag">#{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</article>

@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="home-intro">
+    <pre class="ascii-header">
+  ___  ___  ___  ___ 
+ | __|| _ \/ _ \/ __|
+ | _| |   / (_) \__ \
+ |___||_|_\\___/|___/
+    </pre>
+    <p class="tagline">{{ .Site.Params.description }}</p>
+    <div class="terminal-line">
+      <span class="prompt">❯</span>
+      <span class="cmd">cat</span>
+      <span class="arg">~/posts/</span>
+    </div>
+  </div>
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+  {{ $paginator := .Paginate $posts }}
+  {{ range $paginator.Pages }}
+    {{ partial "post-card.html" . }}
+  {{ end }}
+  {{ partial "pagination.html" . }}
+{{ end }}
